@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { HomePage } from '../home/home';
 
 /**
  * Generated class for the RegisterPage page.
@@ -15,11 +16,6 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class RegisterPage {
 
-  email:string;
-  phonenumber:string;
-  fullname:string;
-  username:string;
-  password:string;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
@@ -27,9 +23,7 @@ export class RegisterPage {
     console.log('ionViewDidLoad RegisterPage');
   }
 
-  register(){
-    if(this.email.length==0 || this.phonenumber.length==0 || this.fullname.length==0 || this.username.length==0 || this.password.length==0)
-    alert("Harap isi semua kotak")
+  formlogin(){
+    this.navCtrl.pop();
   }
-
 }
