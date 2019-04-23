@@ -36,7 +36,7 @@ import { TamuPageModule } from '../pages/tamu/tamu.module';
   entryComponents: [
     MyApp,
     HomePage,
-    RegisterPage,
+    RegisterPage
 
   ],
   providers: [

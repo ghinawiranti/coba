@@ -28,8 +28,7 @@ export class RegisterPage {
   }
 
   register(){
-    if(this.email.length==0 || this.phonenumber.length==0 || this.fullname.length==0 || this.username.length==0 || this.password.length==0)
-    alert("Harap isi semua kotak")
+    this.navCtrl.setRoot('TabsPage');
   }
 
 }
