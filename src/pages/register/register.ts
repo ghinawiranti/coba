@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { HomePage } from '../home/home';
 
 /**
  * Generated class for the RegisterPage page.
@@ -15,11 +16,6 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class RegisterPage {
 
-  email:string;
-  phonenumber:string;
-  fullname:string;
-  username:string;
-  password:string;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
@@ -27,8 +23,12 @@ export class RegisterPage {
     console.log('ionViewDidLoad RegisterPage');
   }
 
+<<<<<<< HEAD
   register(){
     this.navCtrl.setRoot('TabsPage');
+=======
+  formlogin(){
+    this.navCtrl.pop();
+>>>>>>> 147e9f70173ab02bad456b635faa0391c28049a3
   }
-
 }

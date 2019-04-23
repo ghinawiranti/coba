@@ -6,28 +6,26 @@
 -->
 <ion-header>
   <ion-navbar>
-    <ion-title>Daftar</ion-title>
+    <ion-title>register</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <ion-list>
-    <ion-item>
-      <ion-input placeholder="Email" [(ngModel)]="email"></ion-input>
-    </ion-item>
-    <ion-item>
-        <ion-input placeholder="Nomor Ponsel" [(ngModel)]="phonenumber"></ion-input>
-      </ion-item>
-      <ion-item>
-          <ion-input placeholder="Nama Lengkap" [(ngModel)]="fullname"></ion-input>
-        </ion-item>
+    <ion-list>
         <ion-item>
-            <ion-input placeholder="Nama Pengguna" [(ngModel)]="username"></ion-input>
+            <ion-input placeholder="Nama Lengkap" type="text"></ion-input>
           </ion-item>
           <ion-item>
-              <ion-input placeholder="Kata Sandi" [(ngModel)]="password" type="password"></ion-input>
-            </ion-item>
-  </ion-list>
+            <ion-input placeholder="Nomor Telepon" type="text"></ion-input>
+          </ion-item>
+      <ion-item>
+        <ion-input placeholder="Nama Pengguna" [(ngModel)]="username"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input placeholder="Kata Sandi" type="password" [(ngModel)]="password"></ion-input>
+      </ion-item>
+    </ion-list>
+  
+    <button ion-button full (click)="formlogin()">Register</button>
 
-  <button ion-button full (click)="register()">Daftar</button>
 </ion-content>
