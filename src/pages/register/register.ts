@@ -23,12 +23,9 @@ export class RegisterPage {
     console.log('ionViewDidLoad RegisterPage');
   }
 
-<<<<<<< HEAD
+
   register(){
     this.navCtrl.setRoot('TabsPage');
-=======
-  formlogin(){
-    this.navCtrl.pop();
->>>>>>> 147e9f70173ab02bad456b635faa0391c28049a3
-  }
+
+}
 }
