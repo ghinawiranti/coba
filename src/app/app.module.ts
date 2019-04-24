@@ -13,13 +13,15 @@ import { PaketPageModule } from '../pages/paket/paket.module';
 import { PembayaranPageModule } from '../pages/pembayaran/pembayaran.module';
 import { PengaturanPageModule } from '../pages/pengaturan/pengaturan.module';
 import { TamuPageModule } from '../pages/tamu/tamu.module';
+import { KebersihanPage } from '../pages/kebersihan/kebersihan';
 
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    RegisterPage
+    RegisterPage,
+    KebersihanPage
 
   ],
   imports: [
@@ -36,7 +38,8 @@ import { TamuPageModule } from '../pages/tamu/tamu.module';
   entryComponents: [
     MyApp,
     HomePage,
-    RegisterPage
+    RegisterPage,
+    KebersihanPage
 
   ],
   providers: [
