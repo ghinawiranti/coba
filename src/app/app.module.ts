@@ -14,6 +14,10 @@ import { PembayaranPageModule } from '../pages/pembayaran/pembayaran.module';
 import { PengaturanPageModule } from '../pages/pengaturan/pengaturan.module';
 import { TamuPageModule } from '../pages/tamu/tamu.module';
 import { KebersihanPage } from '../pages/kebersihan/kebersihan';
+import { KeamananPage } from '../pages/keamanan/keamanan';
+import { NotifikasiPage } from '../pages/notifikasi/notifikasi';
+import { EditprofilePage } from '../pages/editprofile/editprofile';
+import { TentangPage } from '../pages/tentang/tentang';
 
 
 @NgModule({
@@ -21,7 +25,11 @@ import { KebersihanPage } from '../pages/kebersihan/kebersihan';
     MyApp,
     HomePage,
     RegisterPage,
-    KebersihanPage
+    KebersihanPage,
+    KeamananPage,
+    NotifikasiPage,
+    EditprofilePage,
+    TentangPage
 
   ],
   imports: [
@@ -39,7 +47,11 @@ import { KebersihanPage } from '../pages/kebersihan/kebersihan';
     MyApp,
     HomePage,
     RegisterPage,
-    KebersihanPage
+    KebersihanPage,
+    KeamananPage,
+    NotifikasiPage,
+    EditprofilePage,
+    TentangPage
 
   ],
   providers: [

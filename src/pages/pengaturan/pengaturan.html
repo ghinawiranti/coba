@@ -7,18 +7,18 @@
 
 <ion-content padding>
     <ion-list>
-        <button clear ion-item>
+        <button clear ion-item (click)="goEditprofil()">
           Edit Profil
         </button>
-        <button clear ion-item>
+        <button clear ion-item (click)="goNotifikasi()">
           Notifikasi
         </button>
-        <button clear ion-item>
+        <button clear ion-item (click)="goTentang()">
             Tentang Residential Apps
-          </button>
-          <button clear ion-item>
+        </button>
+        <button clear ion-item (click)="signout()">
             Keluar
-          </button>
+        </button>
     </ion-list>
 
 </ion-content>
